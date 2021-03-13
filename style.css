@@ -1,0 +1,104 @@
+body{
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: contain;
+    background-attachment: fixed;
+}
+@font-face{
+    font-family: game;
+    src:url(game_over.ttf);
+}
+
+h3{
+    color: white;
+    align-items: center;
+}
+
+.container {
+    padding-top: 10px;
+    display: flex;
+   justify-content:space-evenly;
+   
+}
+
+.grid{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#95F5F4;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px rgba(158, 154, 154, 0.275);
+}
+
+.grid div{
+    height:28px;
+    width:28px;
+    /*background-color: #95F5F4;*/
+   border: 1px solid rgba(240, 233, 233, 0.432);
+   border-radius: 5px black;
+}
+
+
+.mini-grid{
+    margin-left: 20px;
+    width:120px;
+    height:120px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#95F5F4;
+    border: 1px solid white;
+    box-shadow: 2px 5px 5px rgba(158, 154, 154, 0.275);
+    
+}
+
+.mini-grid div{
+    height:28px;
+    width: 28px;
+    border: 1px solid rgba(240,233,233,0.432);
+    border-radius: 5px;
+}
+
+.tabla-puntuacion{
+    font-size: 28px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#start-button{
+    background-color: rgba(16, 201, 16, 0.837);
+    border-radius: 5px;
+    border: none;
+    width:150px;
+    height:50px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 18px;
+    box-shadow: 2x 5px 5px rgba(146, 148, 146, 0.741);
+}
+
+.cre{
+    color: whitesmoke;
+}
+.creditos{
+    font-family: game;
+    padding-top: 30px;
+    padding-right: 100px;
+    color: whitesmoke;
+    font-size:18px;
+}
+.nex{
+    color: whitesmoke;
+    font-family:game;
+    font-size:18px
+}
+/*
+cuadrado de 10*10px ancho y alto 20cuadros de ancho y 40 de alto 
+200 * 400
+cuadrado de 11*11px ancho y alto 20 cuadros de ancho y 40 de alto 
+220 * 440 
+*/
